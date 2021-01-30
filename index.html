@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/estilo.css">
+		<script type="text/javascript" src="js/script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<body>
+		<header>Enem Calculadora</header>				 
+		<div id="page">
+			<center>
+				
+				<form name="form1" onkeypress="return Onlynumbers(event)">
+				<table>
+					<tr>
+						<td>Ciências Humanas e suas Tecnologias</td>
+						<td><input type="text" name="text1" id="text1"></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Peso&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" name="peso1" id="peso1"></td>
+					</tr>
+					<tr>
+						<td>Ciências da Natureza e suas Tecnologias</td>
+						<td><input type="text" name="text2" id="text2"></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Peso&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" name="peso2" id="peso2"></td>
+					</tr>
+					<tr>
+						<td>Linguagens, Códigos e suas Tecnologias</td>
+						<td><input type="text" name="text3" id="text3"></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Peso&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" name="peso3" id="peso3"></td>
+					</tr>
+					<tr>
+						<td>Matemática e suas Tecnologias</td>
+						<td><input type="text" name="text4" id="text4"></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Peso&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" name="peso4" id="peso4"></td>
+					</tr>
+					<tr>
+						<td>Redação</td>
+						<td><input type="text" name="text5" id="text5"></td>
+						<td>&nbsp;&nbsp;&nbsp;&nbsp;Peso&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td><input type="text" name="peso5" id="peso5"></td>
+					</tr>
+				</table>
+				<div id="button1">
+					<input type="button" value="Calcular" onclick="calcular()">
+				</div>
+				<div id="button2">
+					<input type="button" value="Nova consulta" onclick="nova_consulta()">
+				</div>
+				</form>
+			</center>			
+		</div>
+		<div id="rodape">
+			<p> &copy Copyright</p>
+		</div>
+	</body>
+</html>
